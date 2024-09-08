@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/filmes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: center;
+  
+}
+
+.container-cabecalho{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.container-cabecalho h1{
+  font-size: 32px;
+  color: rgb(54, 49, 49);
+  padding: 70px 0px;
+  text-transform: uppercase;
+  
+}
+
+.container-principal{
+  width: 100%;
+  height: auto;
+}
+
+.principal-pesquisa{
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 10px 0;
+}
+
+.container-resultado{
+  max-width: 1024px;
+  height: 40vh;
+  color: #070707;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.pesquisa-resutado{
+  height: auto;
+  margin: 20px 10px 0px ;
+  border: 3px solid white;
+  background-color: #2519199f;
+  padding-bottom: 10px;
+
+}
+
+.pesquisa-resutado h2{
+  color: #d4276d;
+}
+
+.pesquisa-resutado p{
+  color: #ffa781;
+}
+
+.container-resultado h2{
+  padding: 5px 0;
+}
+
+.container-resultado p{
+  width: 800px;
+  margin: 0 auto 15px auto;
+  line-height: 24px;
+}
+
+.pesquisa-resutado a{
+  font-size: 20px;
+  color: rgba(0, 255, 255, 0.808);
+  text-decoration: none;
+  background-color: rgba(24, 16, 16, 0.548);
+  padding: 5px;
+  border-radius: 30px;
+
+}
+
+.pesquisa-resutado a:hover{
+  font-weight: 600;
+  background-color: rgba(0, 255, 255, 0.808);
+  color: rgba(24, 16, 16, 0.548);
+  transition: 0.5s;
+}
+
+.principal-pesquisa input{
+  width: 500px;
+  font-size: 20px;
+  color:#f5ecec ;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #584646;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  
+}
+
+.principal-pesquisa button{
+  width: 150px;
+  font-size: 16px;
+  color: #584646;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f5ecec;
+  margin: 0 auto;
+}
+
+.principal-pesquisa button:hover{
+  color: #f5ecec;
+  background-color: #584646;
+  transition: 0.5s;
+}
+
+.container-rodape{
+  width: 100%;
+  position: absolute;
+  bottom: 0PX;
+  text-align: center;
+  padding: 20px;
+  background-color: #2e2929;
+}
+ 
+.container-rodape p{
+  color: #fff;
+  font-weight: 600;
+}
